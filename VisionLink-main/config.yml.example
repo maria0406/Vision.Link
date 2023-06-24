@@ -1,0 +1,14 @@
+#camera:
+#  type: MockCamera
+##  config:
+##    recordings_directory: testdata/recordings/234680
+##    stream: true
+##    fps: 1
+camera:
+  type: OakLiteCamera
+  config:
+    stream: false
+printjobdata:
+  printjobloader:
+    printjobs_directory: testdata/printjobs_png
+    printjobs_filetype: png
